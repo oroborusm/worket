@@ -1,36 +1,39 @@
-<h1>Listing servicios</h1>
+<section class="interno">
 
-<table>
-  <thead>
-    <tr>
-      <th>worket</th>
-      <th>Titulo</th>
-      <th>Resumen</th>
-      <th>Precio</th>
-      <th>foto</th>
+  <h1>Listing servicios</h1>
 
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @servicios.each do |servicio| %>
+  <table>
+    <thead>
       <tr>
-        <td><%= servicio.usuario_id %></td>
-        <td><%= servicio.titulo %></td>
-        <td><%= servicio.resumen %></td>
-        <td><%= servicio.precio %></td>
-        <td><%= image_tag servicio.photo_path %></td>
-        <td><%= link_to 'Show', servicio %></td>
-        <td><%= link_to 'Edit', edit_servicio_path(servicio) %></td>
-        <td><%= link_to 'Destroy', servicio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>worket</th>
+        <th>Titulo</th>
+        <th>Resumen</th>
+        <th>Precio</th>
+        <th>foto</th>
+
+        <th></th>
+        <th></th>
+        <th></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br>
+    <tbody>
+      <% @servicios.each do |servicio| %>
+        <tr>
+          <td><%= servicio.usuario_id %></td>
+          <td><%= servicio.titulo %></td>
+          <td><%= servicio.resumen %></td>
+          <td><%= servicio.precio %></td>
+          <td><%= image_tag servicio.photo_path %></td>
+          <td><%= link_to 'Show', servicio %></td>
+          <td><%= link_to 'Edit', edit_servicio_path(servicio) %></td>
+          <td><%= link_to 'Destroy', servicio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
-<%= link_to 'New Servicio', new_servicio_path %>
+  <br>
+
+  <%= link_to 'New Servicio', new_servicio_path %>
+</section>

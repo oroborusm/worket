@@ -1,27 +1,30 @@
-<h1>Listing tipo_roles</h1>
+<section class="interno">
 
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+  <h1>Listing tipo_roles</h1>
 
-  <tbody>
-    <% @tipo_roles.each do |tipo_rol| %>
+  <table>
+    <thead>
       <tr>
-        <td><%= tipo_rol.nombre %></td>
-        <td><%= link_to 'Show', tipo_rol %></td>
-        <td><%= link_to 'Edit', edit_tipo_rol_path(tipo_rol) %></td>
-        <td><%= link_to 'Destroy', tipo_rol, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Nombre</th>
+        <th></th>
+        <th></th>
+        <th></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br>
+    <tbody>
+      <% @tipo_roles.each do |tipo_rol| %>
+        <tr>
+          <td><%= tipo_rol.nombre %></td>
+          <td><%= link_to 'Show', tipo_rol %></td>
+          <td><%= link_to 'Edit', edit_tipo_rol_path(tipo_rol) %></td>
+          <td><%= link_to 'Destroy', tipo_rol, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
-<%= link_to 'New Tipo rol', new_tipo_rol_path %>
+  <br>
+
+  <%= link_to 'New Tipo rol', new_tipo_rol_path %>
+</section>
