@@ -1,28 +1,37 @@
-<p id="notice"><%= notice %></p>
+<section class="interno">
 
-<p>
-  <strong>Usuario worket:</strong>
-  <%= @servicio.usuario_id %>
-</p>
+  <div class="botoneShow">
+    <div class="back">
+      <%= link_to 'Back', servicios_path %>
+    </div>
+    <div class="edit">
+      <%= link_to 'Edit', edit_servicio_path(@servicio) %>
+    </div>
+  </div>
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Titulo:</strong>
-  <%= @servicio.titulo %>
-</p>
+  <p>
+    <strong>Usuario worket:</strong>
+    <%= @servicio.usuario_id %>
+  </p>
 
-<p>
-  <strong>Resumen:</strong>
-  <%= @servicio.resumen %>
-</p>
+  <p>
+    <strong>Titulo:</strong>
+    <%= @servicio.titulo %>
+  </p>
 
-<p>
-  <strong>Precio:</strong>
-  <%= @servicio.precio %>
-</p>
+  <p>
+    <strong>Resumen:</strong>
+    <%= @servicio.resumen %>
+  </p>
 
-<p>
-  <strong>Foto:</strong>
-  <%= image_tag @servicio.photo_path %>
-</p>
-<%= link_to 'Edit', edit_servicio_path(@servicio) %> |
-<%= link_to 'Back', servicios_path %>
+  <p>
+    <strong>Precio:</strong>
+    <%= @servicio.precio %>
+  </p>
+
+  <p>
+    <strong>Foto:</strong>
+    <%= image_tag @servicio.photo_path %>
+  </p>
+</section>

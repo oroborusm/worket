@@ -1,6 +1,14 @@
 <section class="interno">
-
   <p id="notice"><%= notice %></p>
+  
+  <div class="botoneShow">
+    <div class="back">
+      <%= link_to 'Back', clientes_path %>
+    </div>
+    <div class="edit">
+      <%= link_to 'Edit', edit_cliente_path(@cliente) %>
+    </div>
+  </div>
 
   <p>
     <strong>Razon social:</strong>
@@ -42,6 +50,4 @@
     <%= @cliente.region_id %>
   </p>
 
-  <%= link_to 'Edit', edit_cliente_path(@cliente) %> |
-  <%= link_to 'Back', clientes_path %>
 </section>

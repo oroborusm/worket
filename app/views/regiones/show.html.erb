@@ -1,14 +1,23 @@
-<p id="notice"><%= notice %></p>
+<section class="interno">
 
-<p>
-  <strong>Nombre:</strong>
-  <%= @region.nombre %>
-</p>
+  <div class="botoneShow">
+    <div class="back">
+      <%= link_to 'Back', regiones_path %>
+    </div>
+    <div class="edit">
+      <%= link_to 'Edit', edit_region_path(@region) %>
+    </div>
+  </div>
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Numero:</strong>
-  <%= @region.numero %>
-</p>
+  <p>
+    <strong>Nombre:</strong>
+    <%= @region.nombre %>
+  </p>
 
-<%= link_to 'Edit', edit_region_path(@region) %> |
-<%= link_to 'Back', regiones_path %>
+  <p>
+    <strong>Numero:</strong>
+    <%= @region.numero %>
+  </p>
+
+</section>

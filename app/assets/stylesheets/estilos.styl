@@ -232,12 +232,14 @@ body
 				float left
 				img
 					width 164px
+			figure
 			button
 			nav
+				display inline-block
 				vertical-align middle
 			nav
 				float right
-				margin 0
+				margin .35em .7em 0 0
 				overflow hidden
 				position relative
 				z-index 100
@@ -426,70 +428,6 @@ body
 					color white
 					font-weight 300
 					text-align center
-				// .formito
-				// 	display inline-block
-				// 	overflow hidden
-				// 	padding 0
-				// 	position relative
-				// 	width 48%
-				// 	form
-				// 		border-radius .5em
-				// 		height 50px
-				// 		position relative
-				// 		.irA
-				// 			background transparent
-				// 			border none
-				// 			color white
-				// 			font-size .8em
-				// 			height 100%
-				// 			margin-left 1rem
-				// 			position absolute
-				// 			right 0
-				// 			top 0
-				// 			width 50px
-				// 			z-index 6
-				// 		.ingresa
-				// 			border 1px solid #EEE
-				// 			height 50px
-				// 			margin-left 9%
-				// 			padding 0
-				// 			width 90%
-				// 		.fleshita
-				// 			color azulado
-				// 			height 50px
-				// 			opacity 1
-				// 			padding 6px
-				// 			position absolute
-				// 			text-align center
-				// 			top 0
-				// 			right 0
-				// 			&:before
-				// 				content "E"
-				// 				font-family "Glyphter"
-				// 				font-size 2em
-				// 				font-weight 700
-				// p
-				// .formito
-				// 	display inline-block
-				// 	vertical-align middle
-				// p
-				// 	color white
-				// 	margin 0
-				// 	font-size 1.2em
-				// 	font-weight 700
-				// 	text-transform uppercase
-				// 	vertical-align middle
-				// 	width 50%
-				// 	&:before
-				// 		content 'u'
-				// 		display inline-block
-				// 		font-family 'Glyphter'
-				// 		font-size 2em
-				// 		font-weight 300
-				// 		position relative
-				// 		text-transform lowercase
-				// 		top -.1em
-				// 		vertical-align middle
 	.interno
 		margin 5em auto
 		position relative
@@ -503,6 +441,41 @@ body
 			text-align center
 		p
 			color vino
+		.botoneShow
+			.back
+			.edit
+				background vino
+				height 30px
+				a
+					color white
+					padding 0 2em
+			.back
+				float left
+				a
+					position relative
+					&:before
+						border-bottom 15px solid transparent
+						border-left 0 solid transparent
+						border-right 15px solid vino
+						border-top 15px solid transparent
+						content ""
+						position absolute
+						left -15px
+						top 0
+			.edit
+				float right
+				a
+					position relative
+					&:after
+						border-bottom 15px solid transparent
+						border-left 15px solid vino
+						border-right 0 solid transparent
+						border-top 15px solid transparent
+						content ""
+						position absolute
+						right -15px
+						top 0
+
 		.formGral
 			background linear-gradient(to right, #1E82A6 5% , azulado 50%)
 			border-radius .5em

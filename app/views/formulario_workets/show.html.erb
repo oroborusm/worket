@@ -1,49 +1,57 @@
-<p id="notice"><%= notice %></p>
+<section class="interno">
+  <div class="botoneShow">
+    <div class="back">
+      <%= link_to 'Back', formulario_workets_path %>
+    </div>
+    <div class="edit">
+      <%= link_to 'Edit', edit_formulario_worket_path(@formulario_worket) %>
+    </div>
+  </div>
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Nombre1:</strong>
-  <%= @formulario_worket.nombre1 %>
-</p>
+  <p>
+    <strong>Nombre1:</strong>
+    <%= @formulario_worket.nombre1 %>
+  </p>
 
-<p>
-  <strong>Nombre2:</strong>
-  <%= @formulario_worket.nombre2 %>
-</p>
+  <p>
+    <strong>Nombre2:</strong>
+    <%= @formulario_worket.nombre2 %>
+  </p>
 
-<p>
-  <strong>Apellido1:</strong>
-  <%= @formulario_worket.apellido1 %>
-</p>
+  <p>
+    <strong>Apellido1:</strong>
+    <%= @formulario_worket.apellido1 %>
+  </p>
 
-<p>
-  <strong>Apellido2:</strong>
-  <%= @formulario_worket.apellido2 %>
-</p>
+  <p>
+    <strong>Apellido2:</strong>
+    <%= @formulario_worket.apellido2 %>
+  </p>
 
-<p>
-  <strong>Rut:</strong>
-  <%= @formulario_worket.rut %>
-</p>
+  <p>
+    <strong>Rut:</strong>
+    <%= @formulario_worket.rut %>
+  </p>
 
-<p>
-  <strong>Email:</strong>
-  <%= @formulario_worket.email %>
-</p>
+  <p>
+    <strong>Email:</strong>
+    <%= @formulario_worket.email %>
+  </p>
 
-<p>
-  <strong>Telefono:</strong>
-  <%= @formulario_worket.telefono %>
-</p>
+  <p>
+    <strong>Telefono:</strong>
+    <%= @formulario_worket.telefono %>
+  </p>
 
-<p>
-  <strong>Actividad:</strong>
-  <%= @formulario_worket.actividad %>
-</p>
+  <p>
+    <strong>Actividad:</strong>
+    <%= @formulario_worket.actividad %>
+  </p>
 
-<p>
-  <strong>Adjunto:</strong>
-  <%= @formulario_worket.adjunto %>
-</p>
+  <p>
+    <strong>Adjunto:</strong>
+    <%= @formulario_worket.adjunto %>
+  </p>
 
-<%= link_to 'Edit', edit_formulario_worket_path(@formulario_worket) %> |
-<%= link_to 'Back', formulario_workets_path %>
+</section>

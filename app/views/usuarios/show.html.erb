@@ -1,44 +1,54 @@
-<p id="notice"><%= notice %></p>
+<section class="interno">
 
-<p>
-  <strong>Nombre1:</strong>
-  <%= @usuario.nombre1 %>
-</p>
+  <div class="botoneShow">
+    <div class="back">
+      <%= link_to 'Back', usuarios_index_path %>
+    </div>
+    <div class="edit">
+      <%= link_to 'Edit', edit_usuario_path(@usuario) %>
+    </div>
+  </div>
 
-<p>
-  <strong>Nombre2:</strong>
-  <%= @usuario.nombre2 %>
-</p>
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Apellido1:</strong>
-  <%= @usuario.apellido1 %>
-</p>
+  <p>
+    <strong>Nombre1:</strong>
+    <%= @usuario.nombre1 %>
+  </p>
 
-<p>
-  <strong>Apellido2:</strong>
-  <%= @usuario.apellido2 %>
-</p>
+  <p>
+    <strong>Nombre2:</strong>
+    <%= @usuario.nombre2 %>
+  </p>
 
-<p>
-  <strong>Telefono2:</strong>
-  <%= @usuario.telefono2 %>
-</p>
+  <p>
+    <strong>Apellido1:</strong>
+    <%= @usuario.apellido1 %>
+  </p>
 
-<p>
-  <strong>Email:</strong>
-  <%= @usuario.email %>
-</p>
+  <p>
+    <strong>Apellido2:</strong>
+    <%= @usuario.apellido2 %>
+  </p>
 
-<p>
-  <strong>Rol:</strong>
-  <%= @usuario.rol_id %>
-</p>
+  <p>
+    <strong>Telefono2:</strong>
+    <%= @usuario.telefono2 %>
+  </p>
 
-<p>
-  <strong>Cliente:</strong>
-  <%= @usuario.cliente_id %>
-</p>
+  <p>
+    <strong>Email:</strong>
+    <%= @usuario.email %>
+  </p>
 
-<%= link_to 'Edit', edit_usuario_path(@usuario) %> |
-<%= link_to 'Back', usuarios_index_path %>
+  <p>
+    <strong>Rol:</strong>
+    <%= @usuario.rol_id %>
+  </p>
+
+  <p>
+    <strong>Cliente:</strong>
+    <%= @usuario.cliente_id %>
+  </p>
+
+</section>

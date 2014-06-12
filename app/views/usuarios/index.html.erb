@@ -1,44 +1,49 @@
-<h1>Listing usuarios</h1>
+  <section class="interno">
+      <h1>Worket - listado de Usuario</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Nombre1</th>
-      <th>Nombre2</th>
-      <th>Apellido1</th>
-      <th>Apellido2</th>
-      <th>Telefono2</th>
-      <th>Email</th>
-      <th>Password</th>
-      <th>Rol</th>
-      <th>Cliente</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @usuarios.each do |usuario| %>
-      <tr>
-        <td><%= usuario.nombre1 %></td>
-        <td><%= usuario.nombre2 %></td>
-        <td><%= usuario.apellido1 %></td>
-        <td><%= usuario.apellido2 %></td>
-        <td><%= usuario.telefono2 %></td>
-        <td><%= usuario.email %></td>
-        <td><%= usuario.password %></td>
-        <td><%= usuario.rol_id %></td>
-        <td><%= usuario.cliente_id %></td>
-      
-        <td><%= link_to 'Show', usuario %></td>
-        <td><%= link_to 'Edit', edit_usuario_path(usuario) %></td>
-        <td><%= link_to 'Destroy', usuario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Usuarios', new_usuario_path %>
+      <div class="nuevoBot">
+        <%= link_to 'New Usuarios', new_usuario_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @usuarios.each do |usuario| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Nombre:</span> <strong><%= usuario.nombre1 %></strong>
+                          </li>
+                          <li>
+                              <span>2° Nombre:</span> <strong><%= usuario.nombre2 %></strong>
+                          </li>
+                          <li>
+                              <span>Apellido:</span> <strong><%= usuario.apellido1 %></strong>
+                          </li>
+                          <li>
+                              <span>2° Apellido:</span> <strong><%= usuario.apellido2 %></strong>
+                          </li>
+                          <li>
+                              <span>Telefono:</span> <strong><%= usuario.telefono2 %></strong>
+                          </li>
+                          <li>
+                              <span>Email:</span> <strong><%= usuario.email %></strong>
+                          </li>
+                          <li>
+                              <span>Password:</span> <strong><%= usuario.password %></strong>
+                          </li>
+                          <li>
+                              <span>Rol:</span> <strong><%= usuario.rol_id %></strong>
+                          </li>
+                          <li>
+                              <span>Cliente:</span> <strong><%= usuario.cliente_id %></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Show', usuario %></li>
+                          <li><%= link_to 'Edit', edit_usuario_path(usuario) %></li>
+                          <li><%= link_to 'Destroy', usuario, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>
