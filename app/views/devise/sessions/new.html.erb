@@ -1,0 +1,26 @@
+
+    <section class="interno">
+      <h2>Ingresa</h2>
+      <p>
+        Y accede a todos nuestros workers
+      </p>
+      <div class="formGral">
+          <div class="login">
+            <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+                <%= f.input :email, required: false, autofocus: true, :placeholder => "correo", :label => false  %>
+                <%= f.input :password, required: false, :placeholder => "contraseña", :label => false %>
+                <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+
+                <%= render "devise/shared/links" %>
+
+
+                <%= f.button :submit, "Ingresa" %>
+
+            <% end %>
+
+          </div>
+
+      </div>
+
+
+    </section>

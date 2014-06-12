@@ -1,0 +1,28 @@
+<h2>Sign up</h2>
+
+<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+<!-- aca agrego los campos que modifique-->
+    <%= f.input :nombre1, required: true, autofocus: true %>
+    <%= f.input :nombre2, required: true, autofocus: true %>
+    <%= f.input :apellido1, required: true, autofocus: true %>
+    <%= f.input :apellido2, required: true, autofocus: true %>
+    <%= f.input :telefono2, required: true, autofocus: true %>
+<!-- estos son los campos que tiene devise-->
+    <%= f.input :email, required: true, autofocus: true %>
+    <%= f.input :cliente_id, required: true, :collection => Cliente.all, :label_method => :nombre, :value_method => :id%>
+    <%= f.input :password, required: true %>
+    <%= f.input :password_confirmation, required: true %>
+<!-- aca agrego los campos que modifique-->
+    <%= f.input :rol_id, required: true, :collection => TipoRol.all, :label_method  => :nombre, :value_method => :id%>
+
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Sign up" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>

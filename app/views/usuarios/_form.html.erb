@@ -1,0 +1,53 @@
+<%= form_for(@usuario) do |f| %>
+  <% if @usuario.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
+
+      <ul>
+      <% @usuario.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nombre1, "Primer Nombre" %><br>
+    <%= f.text_field :nombre1 %>
+  </div>
+  <div class="field">
+    <%= f.label :nombre2, "Segundo Nombre" %><br>
+    <%= f.text_field :nombre2 %>
+  </div>
+  <div class="field">
+    <%= f.label :apellido1, "Apellido Paterno" %><br>
+    <%= f.text_field :apellido1 %>
+  </div>
+  <div class="field">
+    <%= f.label :apellido2, "Apellido Materno" %><br>
+    <%= f.text_field :apellido2 %>
+  </div>
+  <div class="field">
+    <%= f.label :telefono2, "Celular" %><br>
+    <%= f.text_field :telefono2 %>
+  </div>
+  <div class="field">
+    <%= f.label :email, "E-Mail" %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "Password" %><br>
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :rol_id, "Rol de Usuario" %><br>
+    <%= f.collection_select :rol_id, @roles, :id, :nombre %>
+  </div>
+  <div class="field">
+    <%= f.label :cliente_id, "Cliente (Si no es Worket)" %><br>
+    <%= f.collection_select :cliente_id, @clientes, :id, :razon_social %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

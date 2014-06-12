@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre archivo:</strong>
+  <%= @media.nombre_archivo %>
+</p>
+
+<p>
+  <strong>Servicio:</strong>
+  <%= @media.servicio_id %>
+</p>
+
+<%= link_to 'Edit', edit_media_path(@media) %> |
+<%= link_to 'Back', medias_path %>

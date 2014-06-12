@@ -1,0 +1,565 @@
+@import 'nib';
+@import 'nib/gradients';
+
+
+
+@font-face {
+    font-family: 'dekarr';
+    src: url('../fonts/dekar-webfont.eot');
+    src: url('../fonts/dekar-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dekar-webfont.woff') format('woff'),
+         url('../fonts/dekar-webfont.ttf') format('truetype'),
+         url('../fonts/dekar-webfont.svg#dekarregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dekarl';
+    src: url('../fonts/dekar_light-webfont.eot');
+    src: url('../fonts/dekar_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dekar_light-webfont.woff') format('woff'),
+         url('../fonts/dekar_light-webfont.ttf') format('truetype'),
+         url('../fonts/dekar_light-webfont.svg#dekar_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'iconitos';
+	src:url('../fonts/icomoon.eot?-pqvdwy');
+	src:url('../fonts/icomoon.eot?#iefix-pqvdwy') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-pqvdwy') format('woff'),
+		url('../fonts/icomoon.ttf?-pqvdwy') format('truetype'),
+		url('../fonts/icomoon.svg?-pqvdwy#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glyphter';
+    src: url('../fonts/Glyphter.eot');
+    src: url('../fonts/Glyphter?#iefix') format('embedded-opentype'),
+         url('../fonts/Glyphter.woff') format('woff'),
+         url('../fonts/Glyphter.ttf') format('truetype'),
+         url('../fonts/Glyphter.svg#Glyphter') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+azulado = #043d5d
+vino = rgb(162,14,48,)
+vino2 = rgb(162,50,68,)
+verdoso = #056572
+oliva = #a2b885
+salmon = #eb5055
+
+h1
+	display none
+body
+	background #EEE
+	font-family 'Open Sans', sans-serif
+	font-size 18px
+	header
+		overflow hidden
+		padding .6em 0
+		position fixed
+		top 0
+		transition .5s
+		width 100%
+		z-index 2
+		.headCont
+			margin 0 auto
+			width 80%
+			button
+				background rgba(25,38,59, 1)
+				border 0
+				border-radius .5em
+				color #EEE
+				display none
+				float left
+				margin-left 20%
+				margin-top .4em
+				p
+					margin .3em 0
+					padding 0
+			figure
+				display none
+				float left
+				img
+					width 164px
+			button
+			nav
+				vertical-align middle
+			nav
+				float right
+				margin 0
+				overflow hidden
+				position relative
+				z-index 100
+				ul
+					margin 0
+					padding 0
+					li
+						background rgba(vino, 1)
+						display inline-block
+						height 28px
+						padding .2rem 1rem
+						text-align center
+						a
+							color #EEE
+							font-size .9em
+							text-decoration none
+			nav
+			.buscaUno
+				margin-top .4rem
+			.buscaUno
+				display none
+				float right
+				position relative
+				transition .5s
+				form
+					//border-radius .5em
+					display block
+					float right
+					height 32px
+					margin-right 3em
+					overflow hidden
+					position relative
+					width 300px
+					.busca
+					.buscatxt
+						position absolute
+						right  2rem
+					.busca
+						background transparent
+						border none
+						color white
+						font-size .8em
+						height 32px
+						margin-left 1rem
+						padding .2rem
+						right 0
+						width 32px
+						z-index 3
+					.buscatxt
+						border 1px solid #EEE
+						height 30px
+						padding 0
+						transition .5s
+					.lupita
+						background white
+						cursor pointer
+						padding 6px
+						position absolute
+						text-align center
+						right 0
+						&:before
+							color azulado
+							content "\e605"
+							font-family "iconitos"
+							font-size 20px
+			.muestraForm
+				form
+					.busca
+						z-index 5
+					.buscatxt
+						display block
+	.fijo
+		display block
+		height 400px
+		margin-top 0
+		opacity 1
+		position relative
+		width 100%
+		z-index 1
+		.bio
+			background rgba(0, 0, 0, .5)
+			color azulito
+			margin-top 3.4em
+			padding 3rem 0 1rem
+			position fixed
+			text-align center
+			width 100%
+			.slide
+				position relative
+				li
+					height 3em
+					p
+						color white
+						font-size 1.2em
+			p
+				color #EEE
+				margin 0 auto
+				text-transform uppercase
+				width 80%
+			.log
+				color white
+				font-family 'grande'
+				margin 0 auto 1em
+				position relative
+				figure
+					padding 0
+					text-align center
+					img
+						width 350px
+		.fijoImg
+			background-attachment fixed
+			background-image url('../assets/4.jpg')
+			background-position center center
+			background-size cover
+			display block
+			height 100%
+			width 100%
+	.fijoFijo
+		background rgba(0,0,0, .8)
+		.headFijo
+			margin 0 auto
+			width 80%
+			button
+				background rgba(25,38,59, 1)
+				border 0
+				border-radius .5em
+				color #EEE
+				display none
+				float left
+				margin-left 20%
+				margin-top .4em
+				p
+					margin .3em 0
+					padding 0
+			figure
+				float left
+				img
+					width 164px
+			button
+			nav
+				vertical-align middle
+			nav
+				float right
+				margin 0
+				overflow hidden
+				position relative
+				z-index 100
+				ul
+					margin 0
+					padding 0
+					li
+						background rgba(vino, 1)
+						display inline-block
+						height 28px
+						padding .2rem 1rem
+						text-align center
+						a
+							color #EEE
+							font-size .9em
+							text-decoration none
+	.home
+		background #EEE
+		overflow hidden
+		padding 0 0 2em
+		position relative
+		z-index 1
+		.contactanos
+			background oliva
+			margin 2em auto
+			padding 2em 0
+			text-align center
+			a
+				background salmon
+				border-radius .5em
+				color white
+				padding 1em
+				transition .3s
+				&:hover
+					opacity .8
+			p
+				margin-bottom 1em
+		.grupoDos
+		.grupoUno
+			margin 5em auto 0
+			position relative
+			width 80%
+			ul
+				border-radius .3em
+				margin 0 auto 2em
+				li
+					background white
+					border-radius .5em
+					display inline-block
+					margin 4em 0 1em
+					overflow hidden
+					position relative
+					vertical-align top
+					width 24%
+					figure
+						margin 0 auto
+						padding-top 2%
+						width 96%
+						img
+							width 100%
+						figcaption
+							background rgba(9,24,32, .8)
+							bottom -20px
+							position absolute
+							right 0
+							transition .3s ease-in-out
+							width 100%
+							p
+							span
+								color white
+								margin 0 0 0 .7rem
+							a
+								background vino
+								border-radius 50%
+								color white
+								height 34px
+								position absolute
+								right 0
+								text-align center
+								text-decoration none
+								top -17px
+								transition .4s
+								width 34px
+								&:before
+									content "\e603"
+									font-family 'iconitos'
+									font-size 2rem
+									font-weight 300
+								&:hover
+									text-shadow 0 0 2em rgba(yellow, .5)
+						&:hover
+							figcaption
+								bottom 0
+			.titulo
+				display block
+				margin 0 auto
+				position absolute
+				//position relative
+				text-align center
+				//top -60px
+				//left -60px
+				width 100%
+				z-index 2
+				figure
+					display block
+					margin 0 auto
+					.imag
+						background #EEE
+						border-radius 50%
+						height 140px
+						left -60px
+						position absolute
+						text-align center
+						top -60px
+						width 140px
+						.backg
+							background vino
+							border-radius 50%
+							height 130px
+							margin 5px auto
+							width 130px
+							img
+								height 90%
+								margin-top .3em
+					figcaption
+					.imag
+						display inline-block
+						vertical-align middle
+					figcaption
+						//margin-left -.5em
+						transition .5s ease-in-out
+						width 100%
+						h2
+							color white
+							font-family 'Open Sans', sans-serif
+							font-weight 300
+							margin 0
+							transition .5s ease-in-out
+			.vermas
+				bottom -1em
+				position absolute
+				right -1px
+				text-align center
+				transition .5s
+				a
+					background azulado
+					color white
+					padding .5em 2em
+					text-decoration none
+		.grupoDos
+			border 1px solid verdoso
+			.titulo
+				figure
+					.imag
+						border .5em solid verdoso
+						.backg
+							background verdoso
+					figcaption
+						background verdoso
+			.vermas
+				a
+					background verdoso
+		.grupoUno
+			border 1px solid vino
+			.titulo
+				figure
+					.imag
+						border .5em solid vino
+						.backg
+							background vino
+					figcaption
+						background vino
+			.vermas
+				a
+					background vino
+		.intro
+			background linear-gradient(to right, #1E82A6 5% , azulado 50%)
+			margin 1em 0 0 0
+			position relative
+			width 100%
+			div
+				margin 0 auto
+				padding 1em 0
+				width 80%
+				h2
+					color white
+					font-weight 300
+					text-align center
+				// .formito
+				// 	display inline-block
+				// 	overflow hidden
+				// 	padding 0
+				// 	position relative
+				// 	width 48%
+				// 	form
+				// 		border-radius .5em
+				// 		height 50px
+				// 		position relative
+				// 		.irA
+				// 			background transparent
+				// 			border none
+				// 			color white
+				// 			font-size .8em
+				// 			height 100%
+				// 			margin-left 1rem
+				// 			position absolute
+				// 			right 0
+				// 			top 0
+				// 			width 50px
+				// 			z-index 6
+				// 		.ingresa
+				// 			border 1px solid #EEE
+				// 			height 50px
+				// 			margin-left 9%
+				// 			padding 0
+				// 			width 90%
+				// 		.fleshita
+				// 			color azulado
+				// 			height 50px
+				// 			opacity 1
+				// 			padding 6px
+				// 			position absolute
+				// 			text-align center
+				// 			top 0
+				// 			right 0
+				// 			&:before
+				// 				content "E"
+				// 				font-family "Glyphter"
+				// 				font-size 2em
+				// 				font-weight 700
+				// p
+				// .formito
+				// 	display inline-block
+				// 	vertical-align middle
+				// p
+				// 	color white
+				// 	margin 0
+				// 	font-size 1.2em
+				// 	font-weight 700
+				// 	text-transform uppercase
+				// 	vertical-align middle
+				// 	width 50%
+				// 	&:before
+				// 		content 'u'
+				// 		display inline-block
+				// 		font-family 'Glyphter'
+				// 		font-size 2em
+				// 		font-weight 300
+				// 		position relative
+				// 		text-transform lowercase
+				// 		top -.1em
+				// 		vertical-align middle
+	.interno
+		margin 4em auto
+		position relative
+		width 80%
+		h2
+			color azulado
+		h2
+		p
+			font-weight 300
+			margin 0
+			text-align center
+		p
+			color vino
+		.formGral
+			background linear-gradient(to right, #1E82A6 5% , azulado 50%)
+			border-radius .5em
+			margin 1em auto 0
+			padding 2em 0
+			position relative
+			width 50%
+			.login
+				color white
+				margin 0 auto
+				width 70%
+				form
+					a
+						color white
+						font-size .8em
+					.email
+					.password
+						margin .7em 0
+						width 100%
+						input
+							border 1px solid #1E82A6
+							border-radius .2em
+							padding-left .5em
+					.boolean
+						margin-right .2em
+					.button
+						background vino
+						border none
+						color white
+						margin-top 1em
+.tul
+	background azulado
+	margin 0 auto
+	position relative
+	width 80%
+	&:after
+		color white
+		content 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ'
+		font-family 'Glyphter'
+.bx-start.active
+.bx-pager-link.active
+	background #EEE
+	border 2 px solid azulado
+.bx-pager-link
+	background azulado
+	border 2px solid white
+	border-radius 50%
+	display inline-block
+	height .5rem
+	text-indent -9999px
+	vertical-align middle
+	width .5rem
+.bx-pager-item
+	display inline-block
+	margin 0 .3rem 0 0
+	&:nth-child(even)
+		margin 0 0 0 .3rem
+.bx-prev
+.bx-next
+	display none

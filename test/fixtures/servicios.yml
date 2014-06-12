@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usuario_worket_id: 1
+  titulo: MyString
+  resumen: MyText
+  precio: 
+
+two:
+  usuario_worket_id: 1
+  titulo: MyString
+  resumen: MyText
+  precio: 
