@@ -1,45 +1,44 @@
     <section class="interno">
-      <h1>Listing clientes</h1>
+        <h1>Worket - listado de clientes</h1>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Razon social</th>
-            <th>Nombre</th>
-            <th>Rut</th>
-            <th>Direccion</th>
-            <th>Email</th>
-            <th>Telefono</th>
-            <th>Nombre contacto</th>
-            <th>Region</th>
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-        </thead>
+        <div class="nuevoBot">
+            <%= link_to 'Nuevo Cliente', new_cliente_path %>
+        </div>
+        <article class="listClient">
+            <ul class="listaInt">
+                <% @clientes.each do |cliente| %>
+                    <li class="intCont">
+                        <ul class="items">
+                            <li>Razon social:</li>
+                            <li>Nombre:</li>
+                            <li>Rut:</li>
+                            <li>Direccion:</li>
+                            <li>Email:</li>
+                            <li>Telefono:</li>
+                            <li>Nombre contacto:</li>
+                            <li>Region:</li>
 
-        <tbody>
-          <% @clientes.each do |cliente| %>
-            <tr>
-              <td><%= cliente.razon_social %></td>
-              <td><%= cliente.nombre %></td>
-              <td><%= cliente.rut %></td>
-              <td><%= cliente.direccion %></td>
-              <td><%= cliente.email %></td>
-              <td><%= cliente.telefono %></td>
-              <td><%= cliente.nombre_contacto %></td>
-              <td><%= cliente.region_id %></td>
-              <td><%= link_to 'Show', cliente %></td>
-              <td><%= link_to 'Edit', edit_cliente_path(cliente) %></td>
-              <td><%= link_to 'Destroy', cliente, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-            </tr>
-          <% end %>
-        </tbody>
-      </table>
 
-      <br>
+                        </ul>
+                        <ul class="Cont">
+                            <li><%= cliente.razon_social %></li>
+                            <li><%= cliente.nombre %></li>
+                            <li><%= cliente.rut %></li>
+                            <li><%= cliente.direccion %></li>
+                            <li><%= cliente.email %></li>
+                            <li><%= cliente.telefono %></li>
+                            <li><%= cliente.nombre_contacto %></li>
+                            <li><%= cliente.region_id %></li>
 
-      <%= link_to 'New Cliente', new_cliente_path %>
-
+                        </ul>
+                        <ul class="botonera">
+                            <li><%= link_to 'Ver', cliente %></li>
+                            <li><%= link_to 'Editar', edit_cliente_path(cliente) %></li>
+                            <li><%= link_to 'Eliminar', cliente, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                        </ul>
+                    </li>
+                <%end%>
+            </ul>
+        </article>
 
     </section>
