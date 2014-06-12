@@ -510,14 +510,28 @@ body
 			padding 2em 0
 			position relative
 			width 50%
-			.login
+			.form
 				color white
 				margin 0 auto
 				width 70%
 				form
+					//font-weight 300
 					a
 						color white
 						font-size .8em
+					.actions
+						input
+							background vino
+							border none
+							color white
+							margin-top 1em
+					.button
+						background vino
+						border none
+						color white
+						margin-top 1em
+					.boolean
+						margin-right .2em
 					.email
 					.password
 						margin .7em 0
@@ -526,13 +540,17 @@ body
 							border 1px solid #1E82A6
 							border-radius .2em
 							padding-left .5em
-					.boolean
-						margin-right .2em
-					.button
-						background vino
-						border none
-						color white
-						margin-top 1em
+					.field
+						input
+							border 1px solid #1E82A6
+							border-radius .2em
+							width 100%
+						select
+							font-size .8em
+							width 100%
+							option
+								font-weight 300
+								width 100%
 		.listClient
 			margin-top 2em
 			.listaInt
@@ -593,9 +611,9 @@ body
 						font-weight 300
 						text-align right
 		.nuevoBot
+		.backBot
 			background salmon
 			border-radius .5em
-			//float right
 			padding .5em
 			text-align center
 			width 200px

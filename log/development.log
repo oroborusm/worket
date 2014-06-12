@@ -68883,3 +68883,3014 @@ Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:47:2
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:47:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 06:56:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/nav (7.0ms)
+  [1m[35mUsuario Load (0.3ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Completed 200 OK in 218ms (Views: 145.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/healthwellness.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/img/dinamicas/temas/tema11.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema11.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (65.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+
+Started GET "/img/dinamicas/temas/tema12.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema12.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (12.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (62.7ms)
+
+
+Started GET "/img/dinamicas/temas/tema21.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema21.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.1ms)
+
+
+Started GET "/img/dinamicas/temas/tema22.png" for 127.0.0.1 at 2014-06-12 06:56:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema22.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (51.5ms)
+
+
+Started GET "/assets/workshop.png" for 127.0.0.1 at 2014-06-12 06:56:35 -0400
+
+
+Started GET "/assets/icomoon.woff?-pqvdwy" for 127.0.0.1 at 2014-06-12 06:56:35 -0400
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2014-06-12 06:56:35 -0400
+
+
+Started DELETE "/usuarios/sign_out" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x95SHo0OZocZkxgcTBkb3ETEfjsDDv+3Q+jzh9ShChU="}
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 88ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/nav (0.1ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/img/dinamicas/temas/tema11.png" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema11.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.2ms)
+
+
+Started GET "/assets/healthwellness.png" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:40 -0400
+
+
+Started GET "/img/dinamicas/temas/tema12.png" for 127.0.0.1 at 2014-06-12 06:56:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema12.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (60.3ms)
+
+
+Started GET "/img/dinamicas/temas/tema21.png" for 127.0.0.1 at 2014-06-12 06:56:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema21.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (65.6ms)
+
+
+Started GET "/img/dinamicas/temas/tema22.png" for 127.0.0.1 at 2014-06-12 06:56:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema22.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (41.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (88.6ms)
+
+
+Started GET "/assets/workshop.png" for 127.0.0.1 at 2014-06-12 06:56:40 -0400
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 06:56:40 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 79ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:41 -0400
+
+
+Started POST "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fUl9hSA6LzC68HNXf0rgDeZw+tg5kgW5JDJ37ZtYygs=", "usuario"=>{"email"=>"juan@worket.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresa"}
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`email` = 'juan@worket.co' ORDER BY `usuarios`.`id` ASC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `usuarios` SET `last_sign_in_at` = '2014-06-12 10:13:33', `current_sign_in_at` = '2014-06-12 10:56:48', `sign_in_count` = 6, `updated_at` = '2014-06-12 10:56:48' WHERE `usuarios`.`id` = 1
+  [1m[36m (67.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/clientes
+Completed 302 Found in 249ms (ActiveRecord: 69.1ms)
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+Processing by ClientesController#index as HTML
+  [1m[35mCliente Load (0.2ms)[0m  SELECT `clientes`.* FROM `clientes`
+  Rendered clientes/index.html.erb within layouts/application (15.2ms)
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 19.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:48 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (23.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (64.3ms)
+  Rendered clientes/new.html.erb within layouts/application (68.0ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 87ms (Views: 57.5ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:56:50 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.2ms)
+  Rendered clientes/new.html.erb within layouts/application (7.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:58:21 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 06:59:45 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.1ms)
+  Rendered clientes/new.html.erb within layouts/application (6.9ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 06:59:45 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 06:59:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 06:59:45 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 06:59:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 06:59:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 06:59:46 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 06:59:46 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 06:59:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 06:59:46 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.4ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.7ms)
+  Rendered clientes/new.html.erb within layouts/application (7.4ms)
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:19:10 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:25:20 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.3ms)
+  Rendered clientes/new.html.erb within layouts/application (6.4ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:21 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.0ms)
+  Rendered clientes/new.html.erb within layouts/application (5.6ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:25:22 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.5ms)
+  Rendered clientes/new.html.erb within layouts/application (6.2ms)
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:25:23 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:26:26 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.8ms)
+  Rendered clientes/new.html.erb within layouts/application (7.9ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 50ms (Views: 47.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.3ms)
+  Rendered clientes/new.html.erb within layouts/application (7.3ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:27 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (13.2ms)
+  Rendered clientes/new.html.erb within layouts/application (14.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:26:28 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:27:06 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.7ms)
+  Rendered clientes/new.html.erb within layouts/application (6.8ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:27:07 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.8ms)
+  Rendered clientes/new.html.erb within layouts/application (8.6ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:28:04 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.8ms)
+  Rendered clientes/new.html.erb within layouts/application (7.4ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:32:38 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.0ms)
+  Rendered clientes/new.html.erb within layouts/application (6.7ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:04 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (9.2ms)
+  Rendered clientes/new.html.erb within layouts/application (10.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.6ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (12.8ms)
+  Rendered clientes/new.html.erb within layouts/application (14.4ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:05 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:35:39 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.8ms)
+  Rendered clientes/new.html.erb within layouts/application (7.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:35:40 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.6ms)
+  Rendered clientes/new.html.erb within layouts/application (6.2ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:36:09 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (8.1ms)
+  Rendered clientes/new.html.erb within layouts/application (9.7ms)
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:38:03 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (4.7ms)
+  Rendered clientes/new.html.erb within layouts/application (5.3ms)
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:27 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.0ms)
+  Rendered clientes/new.html.erb within layouts/application (6.9ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:28 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.3ms)
+  Rendered clientes/new.html.erb within layouts/application (7.1ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:39:57 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:40:10 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.7ms)
+  Rendered clientes/new.html.erb within layouts/application (6.6ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:40:11 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 07:41:06 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.6ms)
+  Rendered clientes/new.html.erb within layouts/application (7.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 07:41:07 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:01:47 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (94.8ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (100.9ms)
+  Rendered clientes/new.html.erb within layouts/application (119.7ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 259ms (Views: 137.7ms | ActiveRecord: 94.9ms)
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.2ms)
+  Rendered clientes/new.html.erb within layouts/application (7.0ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:48 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.1ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.5ms)
+  Rendered clientes/new.html.erb within layouts/application (6.3ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (9.1ms)
+  Rendered clientes/new.html.erb within layouts/application (10.1ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:01:50 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (4.6ms)
+  Rendered clientes/new.html.erb within layouts/application (5.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:23 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (7.0ms)
+  Rendered clientes/new.html.erb within layouts/application (7.9ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:02:49 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (8.2ms)
+  Rendered clientes/new.html.erb within layouts/application (9.5ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:03:03 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.4ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.3ms)
+  Rendered clientes/new.html.erb within layouts/application (7.5ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:04:49 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:05:21 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.9ms)
+  Rendered clientes/new.html.erb within layouts/application (6.7ms)
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:05:22 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (6.4ms)
+  Rendered clientes/new.html.erb within layouts/application (7.5ms)
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:23 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.5ms)
+  Rendered clientes/new.html.erb within layouts/application (6.2ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:31 -0400
+
+
+Started DELETE "/usuarios/sign_out" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FXNhyXAoIXE/B8VPFMsCmG1vNbY4+r6MDjjlfDrwjUg="}
+  [1m[35mUsuario Load (0.3ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+  [1m[36m (65.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (ActiveRecord: 66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/nav (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/assets/healthwellness.png" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/img/dinamicas/temas/tema11.png" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema11.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (63.5ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+
+Started GET "/img/dinamicas/temas/tema12.png" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema12.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (53.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (107.7ms)
+
+
+Started GET "/img/dinamicas/temas/tema22.png" for 127.0.0.1 at 2014-06-12 08:05:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema22.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (67.7ms)
+
+
+Started GET "/assets/workshop.png" for 127.0.0.1 at 2014-06-12 08:05:40 -0400
+
+
+Started GET "/img/dinamicas/temas/tema21.png" for 127.0.0.1 at 2014-06-12 08:05:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema21.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.3ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (67.2ms)
+
+
+Started GET "/assets/icomoon.woff?-pqvdwy" for 127.0.0.1 at 2014-06-12 08:05:40 -0400
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2014-06-12 08:05:40 -0400
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:41 -0400
+
+
+Started POST "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:05:50 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hQTEv7JkZR3LkYVtR2A/N917RFDSW+RBtri/5dYOj3k=", "usuario"=>{"email"=>"juan@worket.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresa"}
+  [1m[36mUsuario Load (415.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`email` = 'juan@worket.co' ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.1ms)[0m  [1mUPDATE `usuarios` SET `last_sign_in_at` = '2014-06-12 10:56:48', `current_sign_in_at` = '2014-06-12 12:05:51', `sign_in_count` = 7, `updated_at` = '2014-06-12 12:05:51' WHERE `usuarios`.`id` = 1[0m
+  [1m[35m (86.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/clientes
+Completed 302 Found in 653ms (ActiveRecord: 503.4ms)
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+Processing by ClientesController#index as HTML
+  [1m[36mCliente Load (0.1ms)[0m  [1mSELECT `clientes`.* FROM `clientes`[0m
+  Rendered clientes/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:51 -0400
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/clientes
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:55 -0400
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUsuario Load (0.2ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/clientes
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+Processing by ClientesController#index as HTML
+  [1m[36mCliente Load (0.1ms)[0m  [1mSELECT `clientes`.* FROM `clientes`[0m
+  Rendered clientes/index.html.erb within layouts/application (2.6ms)
+  [1m[35mUsuario Load (0.2ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:05:59 -0400
+
+
+Started DELETE "/usuarios/sign_out" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JOBPAcxnOFCbUn/XSq/Cxrnm7tMDL3m7mmcLSWEe9H8="}
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/nav (0.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+
+Started GET "/img/dinamicas/temas/tema11.png" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema11.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (70.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+
+Started GET "/assets/healthwellness.png" for 127.0.0.1 at 2014-06-12 08:06:01 -0400
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+
+Started GET "/img/dinamicas/temas/tema12.png" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema12.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (63.1ms)
+
+
+Started GET "/img/dinamicas/temas/tema21.png" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema21.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.6ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.9ms)
+
+
+Started GET "/img/dinamicas/temas/tema22.png" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema22.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.6ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.1ms)
+
+
+Started GET "/assets/workshop.png" for 127.0.0.1 at 2014-06-12 08:06:02 -0400
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:03 -0400
+
+
+Started POST "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7/U2yc9bUEYCs6khGQhGyOiqHdwwRpC+jckhTTn7Yqo=", "usuario"=>{"email"=>"juan@worket.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresa"}
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`email` = 'juan@worket.co' ORDER BY `usuarios`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE `usuarios` SET `last_sign_in_at` = '2014-06-12 12:05:51', `current_sign_in_at` = '2014-06-12 12:06:20', `sign_in_count` = 8, `updated_at` = '2014-06-12 12:06:20' WHERE `usuarios`.`id` = 1
+  [1m[36m (52.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/clientes
+Completed 302 Found in 146ms (ActiveRecord: 53.4ms)
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+Processing by ClientesController#index as HTML
+  [1m[35mCliente Load (0.1ms)[0m  SELECT `clientes`.* FROM `clientes`
+  Rendered clientes/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:20 -0400
+
+
+Started DELETE "/usuarios/sign_out" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ilwXkorFq4zBcf3fs8ofiUHcY8W4r60nfpdPXGn7QYU="}
+  [1m[35mUsuario Load (0.3ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/nav (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/healthwellness.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/img/dinamicas/temas/tema11.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema11.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.6ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (66.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+
+Started GET "/img/dinamicas/temas/tema12.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema12.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.9ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (72.5ms)
+
+
+Started GET "/img/dinamicas/temas/tema21.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema21.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (65.4ms)
+
+
+Started GET "/img/dinamicas/temas/tema22.png" for 127.0.0.1 at 2014-06-12 08:06:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema22.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (112.4ms)
+
+
+Started GET "/assets/workshop.png" for 127.0.0.1 at 2014-06-12 08:06:25 -0400
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:06:26 -0400
+
+
+Started POST "/usuarios/sign_in" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1scfrJ9rsMaubuOY0Cw+4VqZBlXjcOpcJDv+3RySfek=", "usuario"=>{"email"=>"juan@worket.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresa"}
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`email` = 'juan@worket.co' ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `usuarios` SET `last_sign_in_at` = '2014-06-12 12:06:20', `current_sign_in_at` = '2014-06-12 12:07:00', `sign_in_count` = 9, `updated_at` = '2014-06-12 12:07:00' WHERE `usuarios`.`id` = 1[0m
+  [1m[35m (65.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/clientes
+Completed 302 Found in 158ms (ActiveRecord: 66.1ms)
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+Processing by ClientesController#index as HTML
+  [1m[36mCliente Load (0.2ms)[0m  [1mSELECT `clientes`.* FROM `clientes`[0m
+  Rendered clientes/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUsuario Load (0.7ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:00 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+Processing by ClientesController#new as HTML
+  [1m[36mRegion Load (0.5ms)[0m  [1mSELECT `regiones`.* FROM `regiones`[0m
+  Rendered clientes/_form.html.erb (11.8ms)
+  Rendered clientes/new.html.erb within layouts/application (13.9ms)
+  [1m[35mUsuario Load (0.2ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:05 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+Processing by ClientesController#new as HTML
+  [1m[36mRegion Load (0.2ms)[0m  [1mSELECT `regiones`.* FROM `regiones`[0m
+  Rendered clientes/_form.html.erb (5.9ms)
+  Rendered clientes/new.html.erb within layouts/application (6.9ms)
+  [1m[35mUsuario Load (0.2ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/nav (0.6ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/healthwellness.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/img/dinamicas/temas/tema21.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema21.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.3ms)
+
+
+Started GET "/img/dinamicas/temas/tema12.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema12.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (45.4ms)
+
+
+Started GET "/img/dinamicas/temas/tema11.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema11.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (60.5ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/img/dinamicas/temas/tema22.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/dinamicas/temas/tema22.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/oroborusm/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.1ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (38.5ms)
+  Rendered /home/oroborusm/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (93.3ms)
+
+
+Started GET "/assets/workshop.png" for 127.0.0.1 at 2014-06-12 08:07:51 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.5ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (10.9ms)
+  Rendered clientes/new.html.erb within layouts/application (13.4ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:54 -0400
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+Processing by ClientesController#index as HTML
+  [1m[35mCliente Load (0.2ms)[0m  SELECT `clientes`.* FROM `clientes`
+  Rendered clientes/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:07:55 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (12.0ms)
+  Rendered clientes/new.html.erb within layouts/application (14.3ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:40 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (10.3ms)
+  Rendered clientes/new.html.erb within layouts/application (12.5ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 25ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:08:54 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (8.7ms)
+  Rendered clientes/new.html.erb within layouts/application (11.7ms)
+  [1m[36mUsuario Load (0.2ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:10:02 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.2ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.6ms)
+  Rendered clientes/new.html.erb within layouts/application (6.5ms)
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:11:12 -0400
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-06-12 08:11:59 -0400
+Processing by ClientesController#new as HTML
+  [1m[35mRegion Load (0.3ms)[0m  SELECT `regiones`.* FROM `regiones`
+  Rendered clientes/_form.html.erb (5.0ms)
+  Rendered clientes/new.html.erb within layouts/application (5.6ms)
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 ORDER BY `usuarios`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/estilos.css?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/bxslider.min.js?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/logo2.png" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 08:12:00 -0400
