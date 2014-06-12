@@ -8,28 +8,31 @@
             <ul class="listaInt">
                 <% @clientes.each do |cliente| %>
                     <li class="intCont">
-                        <ul class="items">
-                            <li>Razon social:</li>
-                            <li>Nombre:</li>
-                            <li>Rut:</li>
-                            <li>Direccion:</li>
-                            <li>Email:</li>
-                            <li>Telefono:</li>
-                            <li>Nombre contacto:</li>
-                            <li>Region:</li>
-
-
-                        </ul>
                         <ul class="Cont">
-                            <li><%= cliente.razon_social %></li>
-                            <li><%= cliente.nombre %></li>
-                            <li><%= cliente.rut %></li>
-                            <li><%= cliente.direccion %></li>
-                            <li><%= cliente.email %></li>
-                            <li><%= cliente.telefono %></li>
-                            <li><%= cliente.nombre_contacto %></li>
-                            <li><%= cliente.region_id %></li>
-
+                            <li>
+                                <span>Razon social:</span> <strong><%= cliente.razon_social %></strong>
+                            </li>
+                            <li>
+                                <span>Nombre:</span> <strong><%= cliente.nombre %></strong>
+                            </li>
+                            <li>
+                                <span>Rut:</span> <strong><%= cliente.rut %></strong>
+                            </li>
+                            <li>
+                                <span>Direccion:</span> <strong><%= cliente.direccion %></strong>
+                            </li>
+                            <li>
+                                <span>Email:</span> <strong><%= cliente.email %></strong>
+                            </li>
+                            <li>
+                                <span>Telefono:</span> <strong><%= cliente.telefono %></strong>
+                            </li>
+                            <li>
+                                <span>Contacto:</span> <strong><%= cliente.nombre_contacto %></strong>
+                            </li>
+                            <li>
+                                <span>Region:</span> <strong><%= cliente.region_id %></strong>
+                            </li>
                         </ul>
                         <ul class="botonera">
                             <li><%= link_to 'Ver', cliente %></li>
@@ -40,5 +43,4 @@
                 <%end%>
             </ul>
         </article>
-
     </section>

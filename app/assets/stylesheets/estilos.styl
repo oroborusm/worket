@@ -554,34 +554,47 @@ body
 		.listClient
 			margin-top 2em
 			.listaInt
-				display inline-block
+				display block
 				margin 0
 				padding 0
+				text-align center
 				width 100%
 				.intCont
 					border 4px solid azulado
 					border-radius .5em
+					display inline-block
 					list-style none
-					margin 0
+					margin 0 auto 2em
 					overflow hidden
 					position relative
-					width 30%
+					vertical-align top
+					width 320px
 					.Cont
 					.items
 						display block
 						list-style none
-						margin 0 auto 3em
+						margin .5em auto 3em
 						padding 0
 						position relative
-						width 48%
 						li
 							list-style none
 							margin 0
+							span
+							strong
+								display inline-block
+								vertical-align top
+							span
+								text-align right
+								width 120px
+							strong
+								width 190px
 					.Cont
 						float right
 						font-size .8em
 						font-weight 400
+						padding 1em 0
 						text-align left
+						width 100%
 					.botonera
 						background azulado
 						bottom 0
@@ -605,11 +618,6 @@ body
 								font-size .8em
 								text-align center
 								width 100%
-					.items
-						float left
-						font-size .8em
-						font-weight 300
-						text-align right
 		.nuevoBot
 		.backBot
 			background salmon
