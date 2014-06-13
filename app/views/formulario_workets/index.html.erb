@@ -1,4 +1,4 @@
-<section class="interno">
+<!-- <section class="interno">
 
   <h1>Listing formulario_workets</h1>
 
@@ -43,4 +43,55 @@
   <br>
 
   <%= link_to 'New Formulario worket', new_formulario_worket_path %>
-</section>
+</section> -->
+
+
+  <section class="interno">
+      <h1>Worket - listado de clientes</h1>
+
+      <div class="nuevoBot">
+          <%= link_to 'Nuevo Formulario worket', new_formulario_worket_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @formulario_workets.each do |formulario_worket| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Nombre:</span> <strong><%= formulario_worket.nombre1 %></strong>
+                          </li>
+                          <li>
+                              <span>2° Nombre:</span> <strong><%= formulario_worket.nombre2 %></strong>
+                          </li>
+                          <li>
+                              <span>Apellido:</span> <strong><%= formulario_worket.apellido1 %></strong>
+                          </li>
+                          <li>
+                              <span>2° Apellido:</span> <strong><%= formulario_worket.apellido2 %></strong>
+                          </li>
+                          <li>
+                              <span>Rut:</span> <strong><%= formulario_worket.rut %></strong>
+                          </li>
+                          <li>
+                              <span>Email:</span> <strong><%= formulario_worket.email %></strong>
+                          </li>
+                          <li>
+                              <span>Fono:</span> <strong><%= formulario_worket.telefono %></strong>
+                          </li>
+                          <li>
+                              <span>Actividad:</span> <strong><%= formulario_worket.actividad %></strong>
+                          </li>
+                          <li>
+                              <span>Adjunto:</span> <strong><%= formulario_worket.adjunto %></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Ver', formulario_worket %></li>
+                          <li><%= link_to 'Editar', edit_formulario_worket_path(formulario_worket) %></li>
+                          <li><%= link_to 'Eliminar', formulario_worket, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>

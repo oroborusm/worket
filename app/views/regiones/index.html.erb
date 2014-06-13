@@ -1,4 +1,4 @@
-<section class="interno">
+<!-- <section class="interno">
 
   <h1>Listing regiones</h1>
 
@@ -29,4 +29,33 @@
   <br>
 
   <%= link_to 'New Region', new_region_path %>
-</section>
+</section> -->
+
+  <section class="interno">
+      <h1>Worket - listado de clientes</h1>
+
+      <div class="nuevoBot">
+          <%= link_to 'Nueva Region', new_region_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @regiones.each do |region| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Nombre:</span> <strong><%= region.nombre %></strong>
+                          </li>
+                          <li>
+                              <span>Numero:</span> <strong><%= region.numero %></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Ver', region %></li>
+                          <li><%= link_to 'Editar', edit_region_path(region) %></li>
+                          <li><%= link_to 'Eliminar', region, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>

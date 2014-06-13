@@ -1,4 +1,4 @@
-<section class="interno">
+<!-- <section class="interno">
   <h1>Listing comentarios</h1>
 
   <table>
@@ -31,4 +31,36 @@
 
   <%= link_to 'New Comentario', new_comentario_path %>
 
-</section>
+</section> -->
+
+  <section class="interno">
+      <h1>Worket - listado de comentarios</h1>
+
+      <div class="nuevoBot">
+          <%= link_to 'New Comentario', new_comentario_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @comentarios.each do |comentario| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Texto:</span> <strong><%= comentario.texto %></strong>
+                          </li>
+                          <li>
+                              <span>Usuario worket:</span> <strong><%= comentario.usuario_worket_id %></strong>
+                          </li>
+                          <li>
+                              <span>Usuario:</span> <strong><%= comentario.usuario_id %></td></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Ver', comentario %></li>
+                          <li><%= link_to 'Editar', edit_comentario_path(comentario) %></li>
+                          <li><%= link_to 'Eliminar', comentario, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>

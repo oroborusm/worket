@@ -1,4 +1,4 @@
-<section class="interno">
+<!-- <section class="interno">
 
   <h1>Listing tipo_roles</h1>
 
@@ -27,4 +27,30 @@
   <br>
 
   <%= link_to 'New Tipo rol', new_tipo_rol_path %>
-</section>
+</section> -->
+
+  <section class="interno">
+      <h1>Worket - listado de Roles</h1>
+
+      <div class="nuevoBot">
+          <%= link_to 'Nuevo Cliente', new_tipo_rol_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @tipo_roles.each do |tipo_rol| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Nombre:</span> <strong><%= cliente.nombre %></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Ver', tipo_rol %></li>
+                          <li><%= link_to 'Editar', edit_tipo_rol_path(tipo_rol) %></li>
+                          <li><%= link_to 'Eliminar', tipo_rol, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>

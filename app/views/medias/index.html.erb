@@ -1,4 +1,4 @@
-<section class="interno">
+<!-- <section class="interno">
 
   <h1>Listing medias</h1>
 
@@ -29,4 +29,33 @@
   <br>
 
   <%= link_to 'New Media', new_media_path %>
-</section>
+</section> -->
+
+  <section class="interno">
+      <h1>Worket - listado de clientes</h1>
+
+      <div class="nuevoBot">
+          <%= link_to 'Crear Media', new_media_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @medias.each do |media| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Nombre archivo:</span> <strong><%= media.nombre_archivo %></strong>
+                          </li>
+                          <li>
+                              <span>Servicio:</span> <strong><%= media.servicio_id %></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Ver', media %></li>
+                          <li><%= link_to 'Editar', edit_media_path(media) %></li>
+                          <li><%= link_to 'Eliminar', media, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>

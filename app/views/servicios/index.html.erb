@@ -1,4 +1,4 @@
-<section class="interno">
+<!-- <section class="interno">
 
   <h1>Listing servicios</h1>
 
@@ -36,4 +36,42 @@
   <br>
 
   <%= link_to 'New Servicio', new_servicio_path %>
-</section>
+</section> -->
+
+  <section class="interno">
+      <h1>Worket - listado de Servicios</h1>
+
+      <div class="nuevoBot">
+          <%= link_to 'Nuevo Cliente', new_servicio_path %>
+      </div>
+      <article class="listClient">
+          <ul class="listaInt">
+              <% @servicios.each do |servicio| %>
+                  <li class="intCont">
+                      <ul class="Cont">
+                          <li>
+                              <span>Worket:</span> <strong><%= servicio.usuario_id %></strong>
+                          </li>
+                          <li>
+                              <span>Titulo:</span> <strong><%= servicio.titulo %></strong>
+                          </li>
+                          <li>
+                              <span>Resumen:</span> <strong><%= servicio.resumen %></strong>
+                          </li>
+                          <li>
+                              <span>Precio:</span> <strong><%= servicio.precio %></strong>
+                          </li>
+                          <li>
+                              <span>Foto:</span> <strong><%= image_tag servicio.photo_path %></strong>
+                          </li>
+                      </ul>
+                      <ul class="botonera">
+                          <li><%= link_to 'Ver', servicio %></li>
+                          <li><%= link_to 'Editar', edit_servicio_path(servicio) %></li>
+                          <li><%= link_to 'Eliminar', servicio, method: :delete, data: { confirm: 'Está seguro?' } %></li>
+                      </ul>
+                  </li>
+              <%end%>
+          </ul>
+      </article>
+  </section>
