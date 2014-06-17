@@ -1,0 +1,3 @@
+class PerfilesController < ApplicationController
+
+end

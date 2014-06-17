@@ -108,7 +108,7 @@ body
 					li
 						background rgba(vino, 1)
 						display inline-block
-						height 28px
+						//height 28px
 						padding .2rem 1rem
 						text-align center
 						a
@@ -217,7 +217,7 @@ body
 			background-attachment fixed
 			background-image url('../assets/fondo.jpg')
 			background-position center -200px
-			background-repeat none
+			background-repeat no-repeat
 			background-size cover
 			display block
 			height 100%
@@ -288,147 +288,109 @@ body
 					opacity .8
 			p
 				margin-bottom 1em
-		.grupoDos
-		.grupoUno
-			margin 5em auto 0
+		.redeaGrupo
+			margin 5em auto
 			position relative
-			width 80%
-			ul
-				border-radius .3em
-				margin 0 auto 2em
-				li
-					background white
-					border-radius .5em
-					display inline-block
-					margin 4em 0 1em
+			.grupoDos
+			.grupoUno
+				overflow hidden
+				display block
+				position relative
+				ul
+					float left
+					margin 0
+					padding 0
+					width 80%
+					li
+						display inline-block
+						float left
+						margin 0
+						padding 0
+						position relative
+						vertical-align top
+						width 25%
+						figure
+							margin 0
+							padding 0
+							width 100%
+							img
+								width 100%
+							a
+								opacity 0
+								transition .5s ease-in-out
+								&:hover
+									opacity 1
+								figcaption
+									background rgba(9,24,32, .8)
+									height 100%
+									position absolute
+									right 0
+									text-align center
+									top 0
+									width 100%
+									.nombres
+										margin 65% auto 0
+										p
+										span
+											color rgba(white, .5)
+											margin 0
+										span
+											font-size .8em
+				.titulo
+					color white
+					font-family 'Open Sans', sans-serif
+					float left
+					height 100%
+					margin 0
 					overflow hidden
 					position relative
-					vertical-align top
-					width 24%
+					text-align center
+					width 20%
 					figure
-						margin 0 auto
-						padding-top 2%
-						width 96%
-						img
-							width 100%
+						.imag
+							margin .5em auto
+							text-align center
+							width 50%
+							.backg
+								margin 5px auto
+								width 100%
+								img
+									margin-top .3em
+									width 100%
 						figcaption
-							background rgba(9,24,32, .8)
-							bottom -20px
-							position absolute
-							right 0
-							transition .3s ease-in-out
-							width 100%
-							p
-							span
-								color white
-								margin 0 0 0 .7rem
-							span
-								font-size .8em
-							a
-								background vino
-								border-radius 50%
-								color white
-								height 34px
-								position absolute
-								right 0
-								text-align center
-								text-decoration none
-								top -17px
-								transition .4s
-								width 34px
-								&:before
-									content "\e603"
-									font-family 'iconitos'
-									font-size 2rem
-									font-weight 300
-								&:hover
-									text-shadow 0 0 2em rgba(yellow, .5)
-						&:hover
-							figcaption
-								bottom 0
-			.titulo
-				display block
-				margin 0 auto
-				position absolute
-				//position relative
-				text-align center
-				//top -60px
-				//left -60px
-				width 100%
-				z-index 2
-				figure
-					display block
-					margin 0 auto
-					.imag
-						background #EEE
-						border-radius 50%
-						box-shadow 0 0 10px black
-						height 140px
-						left -60px
-						position absolute
-						text-align center
-						top -60px
-						width 140px
-						.backg
-							background vino
-							border-radius 50%
-							height 130px
-							margin 5px auto
-							width 130px
-							img
-								height 90%
-								margin-top .3em
-					figcaption
-					.imag
-						display inline-block
-						vertical-align middle
-					figcaption
-						//margin-left -.5em
-						transition .5s ease-in-out
-						width 100%
-						h2
-							color white
-							font-family 'Open Sans', sans-serif
-							font-weight 300
-							margin 0
 							transition .5s ease-in-out
-			.vermas
-				bottom -1em
-				position absolute
-				right -1px
-				text-align center
-				transition .5s
-				a
+							width 100%
+							h2
+								color white
+								font-family 'Open Sans', sans-serif
+								font-size 1em
+								font-weight 300
+								margin 0
+								transition .5s ease-in-out
+					h2
+						font-weight 300
+						margin 0
+				.vermas
 					background azulado
-					color white
-					padding .5em 2em
-					text-decoration none
-		.grupoDos
-			border 1px solid verdoso
-			.titulo
-				figure
-					.imag
-						border .5em solid verdoso
-						.backg
-							background verdoso
-					figcaption
-						background verdoso
-			.vermas
-				a
-					background verdoso
-		.grupoUno
-			border 1px solid vino
-			.titulo
-				figure
-					.imag
-						border .5em solid vino
-						.backg
-							background vino
-					figcaption
-						background vino
-			.vermas
-				a
-					background vino
+					border-radius 50%
+					height 70px
+					margin .5em auto
+					position relative
+					text-align center
+					transition .5s
+					width 70px
+					z-index 100
+					a
+						color white
+						font-size .8em
+						div
+							padding-top .8em
+					&:hover
+						background vino2
+			.grupoDos
+				background verdoso
+			.grupoUno
+				background vino
 		.intro
 			background linear-gradient(to right, #1E82A6 5% , azulado 50%)
 			margin 1em 0 0 0
@@ -489,7 +451,6 @@ body
 						position absolute
 						right -15px
 						top 0
-
 		.formGral
 			background linear-gradient(to right, #1E82A6 5% , azulado 50%)
 			border-radius .5em
@@ -620,6 +581,67 @@ body
 			width 200px
 			a
 				color white
+		.resena
+			p
+				color #2e4255
+				margin 0 auto 1em
+				text-align justify
+				width 80%
+		.visibles
+			color #2e4255
+			display block
+			font-family 'Open Sans', sans-serif
+			font-size 2em
+			font-weight 300
+			text-align center
+	.muestra
+		background rgba(46,66,85, .3)
+		margin-top 3em
+		padding 2em 0
+		.showMuestra
+			margin 0 auto
+			overflow hidden
+			width 64%
+			.chicas
+				float right
+				margin-left 9%
+				width 60%
+				ul
+					margin 0
+					padding 0
+					li
+						display inline-block
+						margin-bottom 1em
+						width 48%
+						&:nth-child(even)
+							margin-left 1%
+						img
+							width 100%
+			// .chicas
+			// .grande
+			// 	display inline-block
+			// 	vertical-align top
+			.grande
+				float left
+				width 30%
+				button
+					background #1f82a6
+					border none
+					border-radius .3em
+					color white
+					margin-top 1em
+					padding .3em 0
+					width 100%
+				img
+					width 100%
+				.califica
+					margin-top 1em
+					p
+						color #2e4255
+						font-family 'Open Sans', sans-serif
+						font-weight 300
+						margin 0
+						text-align center
 .tul
 	background azulado
 	margin 0 auto

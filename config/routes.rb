@@ -28,6 +28,8 @@ Worket::Application.routes.draw do
   resources :tipo_roles
 
   devise_for :usuarios
+
+  resources :perfiles
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
